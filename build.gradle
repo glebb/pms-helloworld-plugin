@@ -1,0 +1,19 @@
+apply plugin: 'java'
+apply plugin: 'application'
+apply plugin: 'eclipse'
+
+mainClassName = "com.glebb.helloworld.Plugin"
+
+defaultTasks 'clean', 'jar'
+
+version = '1.0.0'
+jar.baseName = 'helloworld' // otherwise it defaults to the directory name
+
+repositories {
+	mavenLocal()
+	mavenCentral()
+}
+
+dependencies {
+	compile group: 'net.pms', name: 'pms', version: '1.5+'
+}
