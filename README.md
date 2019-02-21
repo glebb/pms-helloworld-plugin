@@ -5,4 +5,4 @@ It uses Gradle build system and integrates nicely with Eclipse.
 
 Check detailed instructions on how to get started from https://github.com/ps3mediaserver/ps3mediaserver/tree/master/src/main/external-resources/plugins/README.md
 
-Copyright (c) Antti Niiles 2012
+
